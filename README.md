@@ -8,11 +8,13 @@ Temas
         * Comunicación Cliente - Servidor
         * Etiqueta <script>
     - Variables
+    	* Declaración / definición
         * Tipos
-        * Strings
-        * Numbers
-        * Arrays
-        * Objetos
+	        * String
+	        * Number
+	        * Boolean
+	        * Arrays
+	        * Objetos
     - Operadores aritméticos
     - Operadores lógicos
     - Sentencias de control
