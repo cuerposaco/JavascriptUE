@@ -46,5 +46,5 @@ Y esos datos pueden ser de distintas y difrentes naturalezas, que podemos clasif
 
 Bibliografía
 ---
-http://www.w3schools.com/js/default.asp
-https://developer.mozilla.org/es/docs/Web/JavaScript
+- http://www.w3schools.com/js/default.asp
+- https://developer.mozilla.org/es/docs/Web/JavaScript
