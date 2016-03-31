@@ -38,7 +38,7 @@ Siempre conservará el ultimo valor que le hayamos asignado, y en la escritura d
 Reglas de las variables
 ----
 
-- La variables son 'case sensitives', significa que son sensibles a mayusculas y minusculas de al forma que si queremos acceder al valor de una variable que hayamos declarado anteriormente, tiene que ser con la misma nomenclarura con la que lo declaramos. Siguiendo el ejemplo anterior:
+- La variables son 'case sensitives', significa que son sensibles a mayusculas y minusculas de tal forma que si queremos acceder al valor de una variable que hayamos declarado anteriormente, tiene que ser con la misma nomenclarura con la que lo declaramos. Siguiendo el ejemplo anterior:
 
 ```
 nombre = "Ivan";
