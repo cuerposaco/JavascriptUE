@@ -1,6 +1,6 @@
 Las cadenas de caracteres o **Strings**, son como su propio nombre indica una secuencia de caracteres, que pueden ser letras, números, espacios ó signos de puntuación.
 
-Las cadenas de caracteresm siempre van envueltas entre ```comillas```simples o dobles, es indiferente, pero siempre tiene que empezar y acabar con el mismmo tipo de comillas.
+Las cadenas de caracteres siempre van envueltas entre ```comillas```simples o dobles, es indiferente, pero siempre tiene que empezar y acabar con el mismmo tipo de comillas.
 
 ```
 // formatos correctos
