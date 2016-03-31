@@ -46,5 +46,13 @@ Y esos datos pueden ser de distintas y difrentes naturalezas, que podemos clasif
 
 Bibliografía
 ---
+
+Documentación Online:
+
 - http://www.w3schools.com/js/default.asp
 - https://developer.mozilla.org/es/docs/Web/JavaScript
+
+Libros:
+- http://it-ebooks.info/book/4709/ [JavaScript for Kids
+]
+- http://it-ebooks.info/book/416/ [JavaScript: The Definitive Guide, 6th Edition]
