@@ -30,17 +30,17 @@
 		// Acceder al elemento input del HTML
 		// y recuperar su valor
 
-		function trim_string(elemento){
-			var main_element = document.querySelector(elemento);
+		function trim_string(elemento, num_caracteres){
+			var main_element = document.querySelector(elemento||'#texto1') ;
 			var texto_input = main_element.querySelector('input').value;
-			var texto_trim = texto_input.substr(0,20);
+			var texto_trim = texto_input.substr(0, num_caracteres || 20 );
 			main_element.querySelector('#resultado').innerText = texto_trim + "...";
 		}
 
 		function init(){
-			trim_string('#texto1');
-			trim_string('#texto2');
-			trim_string('#texto3');
+			trim_string('#texto1', 20);
+			trim_string('#texto2', 10);
+			trim_string('#texto3', 40);
 		}
 
 		//console.log( texto_trim + "..." );
