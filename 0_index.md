@@ -56,3 +56,4 @@ Libros:
 - http://it-ebooks.info/book/4709/ [JavaScript for Kids
 ]
 - http://it-ebooks.info/book/416/ [JavaScript: The Definitive Guide, 6th Edition]
+- http://www.javascriptbook.com/ [JavaScript & jQuery]
