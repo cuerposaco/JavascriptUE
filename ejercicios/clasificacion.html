@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="equipos.js"></script>
+	<style>
+		*{
+		   font-family:arial;
+		   box-sizing:border-box;
+		}
+		ul{
+		    display:block;
+		    width:100%;
+		}
+		li.equipo {
+		    display:block;
+		    width:100%;
+		    list-style:none;
+		}
+		li.equipo #nombre,
+		li.equipo #puntos{
+		    float:left;
+		    width:50%;
+		}
+	</style>
+</head>
+<body onload="init()">
+	<h1>Tabla Clasificatoria</h1>
+	<ul id="tabla_equipos"></ul>
+	<script>
+		function init(){
+			var tabla_container = document.querySelector('#tabla_equipos');
+			for (var i = 0; i < equipos.length; i++) {
+				tabla_container.innerHTML += '<li class="equipo"><div id="nombre">'+equipos[i].nombre+'</div><div id="puntos"></div>'+equipos[i].puntos+'</li>'
+				//console.log(equipos[i].nombre);
+			}
+		}
+	</script>
+</body>
+</html>
