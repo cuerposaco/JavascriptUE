@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo Trim...</title>
+	<style>
+		*{
+		    font-family:Arial;
+		    box-sizing:border-box;
+		}
+		input[type="text"] {
+		    display:block;
+		    font-size:10pt;
+		    padding:20px;
+		    width:100%;
+		    text-align:center;
+		}
+		#resultado{
+		    display:block;
+		    width:100%;
+		    padding:10px;
+		    text-align:center;
+		    color:#333;
+
+		}
+	</style>
+</head>
+<body onload="init()">
+	<script>
+		// Acceder al elemento input del HTML
+		// y recuperar su valor
+
+		function trim_string(elemento){
+			var main_element = document.querySelector(elemento);
+			var texto_input = main_element.querySelector('input').value;
+			var texto_trim = texto_input.substr(0,20);
+			main_element.querySelector('#resultado').innerText = texto_trim + "...";
+		}
+
+		function init(){
+			trim_string('#texto1');
+			trim_string('#texto2');
+			trim_string('#texto3');
+		}
+
+		//console.log( texto_trim + "..." );
+	</script>
+	<div id="texto1">
+		<input type="text" value="En un lugar de la mancha de cuyo nombre no quiero acordarme">
+		<div id="resultado"></div>
+	</div>
+	<div id="texto2">
+		<input type="text" value="Con cien cañones por banda viento en popa a toda vela">
+		<div id="resultado"></div>
+	</div>
+	<div id="texto3">
+		<input type="text" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+		<div id="resultado"></div>
+	</div>
+	
+</body>
+</html>
